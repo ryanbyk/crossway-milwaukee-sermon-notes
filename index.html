@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CrossWay Milwaukee — Small Group Resources</title>
+  <meta name="description" content="A home for sermon notes and small group resources from CrossWay Milwaukee." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/img/logo.png" alt="CrossWay Milwaukee" onerror="this.style.display='none'" />
+        <span class="nav-logo-text">CrossWay Milwaukee</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#notes">Sermon Notes</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">CrossWay Milwaukee</p>
+      <h1 class="hero-title">Small Group Resources</h1>
+      <p class="hero-desc">A home for sermon notes and small group resources from CrossWay Milwaukee.</p>
+      <a href="#notes" class="btn">Browse sermon notes</a>
+    </div>
+  </section>
+  <section class="page" id="notes">
+    <div class="container-wide">
+      <p class="section-label">Sermon Notes</p>
+      <div class="notes-grid">
+        <a href="notes/hebrews-12/index.html" class="note-card">
+          <p class="note-card-meta">Hebrews 12:12–29 &nbsp;·&nbsp; Dan Allen</p>
+          <p class="note-card-title">Pursue peace and purity, empowered by the unshakable kingdom</p>
+          <p class="note-card-summary">Two commands — pursue peace with everyone and see to it that no one falls — powered by the vision of the unshakable kingdom we're headed toward.</p>
+          <span class="note-card-link">View notes</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="page" id="about" style="padding-top: 0;">
+    <div class="container-wide">
+      <p class="section-label">About</p>
+      <div class="about-block">
+        <p>CrossWay Milwaukee is a church rooted in Scripture and committed to helping ordinary people follow Jesus together. These notes are designed to help small groups go deeper into the Sunday sermon — not a transcript, but a guide for discussion, reflection, and application.</p>
+        <p>Each set of notes includes context, a passage summary, the sermon's main points, a key idea, and discussion questions for your group.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>© <span id="year"></span> CrossWay Milwaukee</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
