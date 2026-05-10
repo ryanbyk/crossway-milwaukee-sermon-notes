@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -11,6 +12,9 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+
+  <!-- Nav -->
+
   <nav>
     <div class="nav-inner">
       <a href="index.html" class="nav-logo">
@@ -24,6 +28,9 @@
       </ul>
     </div>
   </nav>
+
+  <!-- Hero -->
+
   <section class="hero">
     <div class="hero-inner">
       <p class="hero-eyebrow">CrossWay Milwaukee</p>
@@ -32,19 +39,39 @@
       <a href="#notes" class="btn">Browse sermon notes</a>
     </div>
   </section>
+
+  <!-- Sermon Notes -->
+
   <section class="page" id="notes">
     <div class="container-wide">
       <p class="section-label">Sermon Notes</p>
       <div class="notes-grid">
-        <a href="notes/hebrews-12/index.html" class="note-card">
-          <p class="note-card-meta">Hebrews 12:12–29 &nbsp;·&nbsp; Dan Allen</p>
-          <p class="note-card-title">Pursue peace and purity, empowered by the unshakable kingdom</p>
-          <p class="note-card-summary">Two commands — pursue peace with everyone and see to it that no one falls — powered by the vision of the unshakable kingdom we're headed toward.</p>
-          <span class="note-card-link">View notes</span>
-        </a>
-      </div>
-    </div>
+
+```
+    <a href="notes/hebrews-12/4-17/index.html" class="note-card">
+      <p class="note-card-meta">Hebrews 12:4–17 &nbsp;·&nbsp; Dan Allen</p>
+      <p class="note-card-title">Endure by seeing struggle as God's training</p>
+      <p class="note-card-summary">Struggle is not a sign that God has forgotten you — it is the very means your Father uses to train you as his beloved child and move you toward the fruit of righteousness.</p>
+      <span class="note-card-link">View notes</span>
+    </a>
+
+    <a href="notes/hebrews-12/12-29/index.html" class="note-card">
+      <p class="note-card-meta">Hebrews 12:12–29 &nbsp;·&nbsp; Dan Allen</p>
+      <p class="note-card-title">Pursue peace and purity, empowered by the unshakable kingdom</p>
+      <p class="note-card-summary">Two commands — pursue peace with everyone and see to it that no one falls — powered by the vision of the unshakable kingdom we're headed toward.</p>
+      <span class="note-card-link">View notes</span>
+    </a>
+
+    <!-- Future notes go here — duplicate the card above and update the content -->
+
+  </div>
+</div>
+```
+
   </section>
+
+  <!-- About -->
+
   <section class="page" id="about" style="padding-top: 0;">
     <div class="container-wide">
       <p class="section-label">About</p>
@@ -54,11 +81,16 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
+
   <footer>
     <p>© <span id="year"></span> CrossWay Milwaukee</p>
   </footer>
+
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+
 </body>
 </html>
